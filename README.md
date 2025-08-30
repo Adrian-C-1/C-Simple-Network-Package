@@ -4,6 +4,9 @@ Simple Network Package is designed to provide a simple interface for developers 
 # Prerequisites
 1. [Boost/Asio 1.81.0](https://www.boost.org/releases/1.81.0/) libraries (I used static because it's easier to link)
 - make sure you run bootstrap and b2 such that you have the `stage\lib` folder filled with the libraries
+
+Alternative if building doesn't work: use the [pre-built binary](https://boost.teeks99.com/)
+
 2. openssl libraries (for boost/asio/ssl)
 - Simple installation guide in powershell
 ```
